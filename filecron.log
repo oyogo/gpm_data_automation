@@ -1,0 +1,145 @@
+Traceback (most recent call last):
+  File "/home/oyogo/Documents/zangu_projects/gpm_data_download/eescrappy.py", line 4, in <module>
+    credentials = ee.ServiceAccountCredentials(service_account, '.private-key.json')
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/_helpers.py", line 40, in ServiceAccountCredentials
+    return service_account.Credentials.from_service_account_file(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/google/oauth2/service_account.py", line 238, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/google/auth/_service_account_info.py", line 79, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '.private-key.json'
+Traceback (most recent call last):
+  File "/home/oyogo/Documents/zangu_projects/gpm_data_download/eescrappy.py", line 4, in <module>
+    credentials = ee.ServiceAccountCredentials(service_account, '.private-key.json')
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/_helpers.py", line 40, in ServiceAccountCredentials
+    return service_account.Credentials.from_service_account_file(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/google/oauth2/service_account.py", line 238, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/google/auth/_service_account_info.py", line 79, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+FileNotFoundError: [Errno 2] No such file or directory: '.private-key.json'
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661248211658, 'update_timestamp_ms': 1661248211658, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'KV3VM45ZRNM3UUBR7QCKJ3ZT', 'name': 'projects/earthengine-legacy/operations/KV3VM45ZRNM3UUBR7QCKJ3ZT'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661248811956, 'update_timestamp_ms': 1661248811956, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'VHBBMHK52KTWZOSHK4KLCWBG', 'name': 'projects/earthengine-legacy/operations/VHBBMHK52KTWZOSHK4KLCWBG'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661249412958, 'update_timestamp_ms': 1661249412958, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'TYGLHL2PQMIFME3GXULUFCF7', 'name': 'projects/earthengine-legacy/operations/TYGLHL2PQMIFME3GXULUFCF7'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661250012830, 'update_timestamp_ms': 1661250012830, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'T6NZVPNX2WAZOX727TYKF62W', 'name': 'projects/earthengine-legacy/operations/T6NZVPNX2WAZOX727TYKF62W'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661250612711, 'update_timestamp_ms': 1661250612711, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'VO47MC4WDTHI2NSFIUJIEMZI', 'name': 'projects/earthengine-legacy/operations/VO47MC4WDTHI2NSFIUJIEMZI'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661251213577, 'update_timestamp_ms': 1661251213577, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'SRF7ZXLQS73AIBBKPZ4LIDGZ', 'name': 'projects/earthengine-legacy/operations/SRF7ZXLQS73AIBBKPZ4LIDGZ'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+{'state': 'READY', 'description': 'gpmStack_makueni_2021-08-23_2022-08-23', 'creation_timestamp_ms': 1661251819378, 'update_timestamp_ms': 1661251819378, 'start_timestamp_ms': 0, 'task_type': 'EXPORT_IMAGE', 'id': 'IMMM5Y4CT4UFXCSD4N25Y57Y', 'name': 'projects/earthengine-legacy/operations/IMMM5Y4CT4UFXCSD4N25Y57Y'}
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/oyogo/Documents/zangu_projects/gpm_data_download/eescrappy.py", line 5, in <module>
+    ee.Initialize(credentials)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/__init__.py", line 132, in Initialize
+    data.initialize(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/data.py", line 201, in initialize
+    _install_cloud_api_resource()
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/data.py", line 269, in _install_cloud_api_resource
+    _cloud_api_resource_raw = _cloud_api_utils.build_cloud_resource(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/_cloud_api_utils.py", line 164, in build_cloud_resource
+    resource = build()
+  File "/home/oyogo/.local/lib/python3.8/site-packages/ee/_cloud_api_utils.py", line 144, in build
+    return discovery.build(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/discovery.py", line 270, in build
+    content = _retrieve_discovery_doc(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/discovery.py", line 376, in _retrieve_discovery_doc
+    resp, content = req.execute(num_retries=num_retries)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/_helpers.py", line 134, in positional_wrapper
+    return wrapped(*args, **kwargs)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/http.py", line 900, in execute
+    resp, content = _retry_request(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/googleapiclient/http.py", line 177, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/google_auth_httplib2.py", line 218, in request
+    response, content = self.http.request(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/httplib2/__init__.py", line 1701, in request
+    (response, content) = self._request(
+  File "/home/oyogo/.local/lib/python3.8/site-packages/httplib2/__init__.py", line 1421, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/httplib2shim/__init__.py", line 154, in _conn_request
+    raise _map_exception(e)
+  File "/home/oyogo/.local/lib/python3.8/site-packages/httplib2shim/__init__.py", line 140, in _conn_request
+    urllib3_response = self.pool.request(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 75, in request
+    return self.request_encode_url(
+  File "/usr/lib/python3/dist-packages/urllib3/request.py", line 97, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "/usr/lib/python3/dist-packages/urllib3/poolmanager.py", line 330, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 719, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 376, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 702, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 665, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 421, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 416, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/usr/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib/python3.8/http/client.py", line 285, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
+3.8.10 (default, Jun 22 2022, 20:18:18) 
+[GCC 9.4.0]
+/home/oyogo
